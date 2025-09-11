@@ -33,8 +33,10 @@ export default function Home() {
           </div>
         </div>
 
-        <form id="settings" className="mt-6 flex w-full flex-col">
-          form
+        <form id="settings" className="mt-6 flex w-full flex-col gap-5">
+          <div>
+            <label htmlFor="firstName" className="text-sm font-medium">Name</label>
+          </div>
         </form>
       </div>
     </>
