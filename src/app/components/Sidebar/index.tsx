@@ -6,6 +6,7 @@ import * as lucide from "lucide-react";
 import { UsedSpaceWidgeth } from "./UsedSpaceWidget";
 import { Profile } from "./Profile";
 import * as Input from "../Input";
+import { InputControl } from "../Input";
 
 export function Sidebar() {
   return (
@@ -14,9 +15,9 @@ export function Sidebar() {
 
       <Input.InputRoot>
         <Input.InputPrefix>
-          <lucide.Search className="h-5 w-5 text-zinc-500 group-hover:text-violet-300 " />
+          <lucide.Search />
         </Input.InputPrefix>
-        <Input.Control placeholder="Search" />
+        <InputControl placeholder="Search" />
       </Input.InputRoot>
 
       <nav className="space-y-0.5">

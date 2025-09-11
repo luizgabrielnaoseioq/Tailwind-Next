@@ -5,12 +5,12 @@ import { ComponentProps } from 'react'
 type InputPrefixProps = ComponentProps<'div'>
 
 export function InputPrefix(props: InputPrefixProps) {
-  return <div {...props} />
+  return <div {...props} className='h-5 w-5 mb-1 text-zinc-500 group-hover:text-violet-300'  />
 }
 
 type InputControlProps = ComponentProps<'input'>
 
-export function Control(props: InputControlProps) {
+export function InputControl(props: InputControlProps) {
   return (
     <input
       className="flex-1 border-0 bg-transparent p-0 placeholder-zinc-600 group-hover:placeholder-violet-300"
