@@ -9,9 +9,7 @@ export default function Home() {
     <>
       <h1 className="font-sm text-3xl">Settings</h1>
       <SettingsTabs />
-
       <Header />
-
       <Form />
     </>
   );
