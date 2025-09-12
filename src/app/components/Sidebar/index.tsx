@@ -31,7 +31,7 @@ export function Sidebar() {
 
       <UsedSpaceWidgeth />
 
-      <div className="h-px bg-zinc-200 pb-8">
+      <div className="h-px pb-8">
         <Profile />
       </div>
     </aside>
